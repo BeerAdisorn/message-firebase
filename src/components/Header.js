@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Header extends Component {
     render() {
         return (
-            <nav className="navbar">
+            <nav className="navber">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="http://bulma.io">
                         {this.props.title}
