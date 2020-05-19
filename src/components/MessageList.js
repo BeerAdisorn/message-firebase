@@ -36,7 +36,12 @@ class MessageList extends Component {
             return (
                 <div className="card">
                     <div className="card-content">
-                        <Message message={message.message} />
+                        <Message
+                            msgKey={message.key}
+                            message={message.message}
+                            db={this.props.db}
+                        />
+
                     </div>
                 </div>
             )
